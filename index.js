@@ -12,6 +12,7 @@ function johnLennonFacts(facts) {
   var i = 0
   while (i < facts.length) {
     facts[i] = `${facts[i]}!!!`
+    i += 1
   }
 
   return facts
@@ -19,7 +20,6 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(n) {
   var loves = []
-
   do {
     loves.push("I love the Beatles!")
     n += 1
